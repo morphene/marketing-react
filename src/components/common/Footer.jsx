@@ -20,6 +20,8 @@ class Footer extends Component {
                                     </h4>
                                     <p>{this.props.siteDescription}</p>
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href={this.props.btnLink}
                                         className="btn btn-primary"
                                     >
@@ -239,7 +241,7 @@ Footer.defaultProps = {
     siteDescription:
         "Morphene Blockchain is going to completely interrupt the online auction marketplace through innovative and efficient trust-less application specificity. Essentially, what you thought you knew about online auctions has changed.",
     btnText: "Get Started",
-    btnLink: "#",
+    btnLink: "//morphene.io/auctions",
 
     usefullLinksTitle: "Useful Links",
 
