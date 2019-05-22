@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -167,37 +167,46 @@ class Footer extends Component {
                                     <ul>
                                         {this.props.githubLink && (
                                             <li>
-                                                <Link
-                                                    to={this.props.githubLink}>
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href={this.props.githubLink}>
                                                     <FontAwesomeIcon icon={faGithub} />
-                                                </Link>
+                                                </a>
                                             </li>
                                         )}
 
                                         {this.props.steemitLink && (
                                             <li>
-                                                <Link
-                                                    to={this.props.steemitLink}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href={this.props.steemitLink}
                                                     className="icofont-web">
-                                                </Link>
+                                                    <i className="icofont-web" />
+                                                </a>
                                             </li>
                                         )}
 
                                         {this.props.telegramLink && (
                                             <li>
-                                                <Link
-                                                    to={this.props.telegramLink}
-                                                    className="icofont-telegram">
-                                                </Link>
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href={this.props.telegramLink}>
+                                                    <i className="icofont-telegram" />
+                                                </a>
                                             </li>
                                         )}
 
                                         {this.props.twitterlLink && (
                                             <li>
-                                                <Link
-                                                    to={this.props.twitterlLink}
-                                                    className="icofont-twitter">
-                                                </Link>
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href={this.props.twitterlLink}>
+                                                    <i className="icofont-twitter" />
+                                                </a>
                                             </li>
                                         )}
 
