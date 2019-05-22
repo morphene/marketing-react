@@ -251,7 +251,7 @@ Footer.defaultProps = {
     telegram: "https://t.me/morphene_chat",
 
     copyRightText: "Copyright \u00a9 Boone Development 2019 All Rights Reserved.",
-    twitterlLink: "//twitter.com/@morphene-io",
+    twitterlLink: "//twitter.com/@morphene_io",
     githubLink: "//github.com/morphene/",
     telegramLink: "//t.me/morphene_chat",
     steemitLink: "//steemit.com/@morphene-io"
