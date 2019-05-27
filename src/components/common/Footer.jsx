@@ -182,9 +182,7 @@ class Footer extends Component {
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     href={this.props.steemitLink}
-                                                    className="icofont-web">
-                                                    <i className="icofont-web" />
-                                                </a>
+                                                    className="icofont-web" />
                                             </li>
                                         )}
 
@@ -193,9 +191,8 @@ class Footer extends Component {
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    href={this.props.telegramLink}>
-                                                    <i className="icofont-telegram" />
-                                                </a>
+                                                    href={this.props.telegramLink}
+                                                    className="icofont-telegram" />
                                             </li>
                                         )}
 
@@ -204,9 +201,8 @@ class Footer extends Component {
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    href={this.props.twitterlLink}>
-                                                    <i className="icofont-twitter" />
-                                                </a>
+                                                    href={this.props.twitterlLink}
+                                                    className="icofont-twitter" />
                                             </li>
                                         )}
 

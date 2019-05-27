@@ -1,8 +1,12 @@
-# Disallow everything.
 User-agent: *
 Disallow: /
 
-# Certain social media sites are whitelisted to allow crawlers to access page markup when links to /images are shared. 
+User-agent: Discordbot
+Allow: *
+
+User-agent: Telegrambot
+Allow: *
+
 User-agent: Twitterbot
 Allow: *
 
@@ -10,4 +14,7 @@ User-agent: facebookexternalhit
 Allow: *
 
 User-agent: Googlebot
+Allow: *
+
+User-agent: Googlebot-Images
 Allow: *
