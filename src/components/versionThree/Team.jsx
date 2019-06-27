@@ -12,7 +12,6 @@ class Team extends Component {
                 <div className="our-team">
                     <div className="pic">
                         {team.image && <img src={team.image} alt="team" />}
-                        <i className={team.icon} style={{fontSize: "16rem"}} />
                         <ul className="social">
                             {team.fbLink && (
                                 <li>
@@ -137,24 +136,24 @@ Team.defaultProps = {
             githubLink: "//github.com/netuoso",
             linkedinLink: "//linkedin.com/in/chaneyandrew/",
             name: "Andrew Chaney",
-            icon: "icofont-businessman",
+            image: require("../../assets/img/andrew-scaled.jpg"),
             designation: "Founder",
             designation2: "Chief Executive Officer"
         },
         {
             name: "Laura Guagliardo",
-            icon: "icofont-businesswoman",
+            image: require("../../assets/img/laura-scaled.jpg"),
             designation: "Design Coordinator"
         },
         {
             name: "Chris Chaney",
             linkedinLink: "//linkedin.com/in/cmchaney/",
-            icon: "icofont-businessman",
+            image: require("../../assets/img/chris-scaled.jpg"),
             designation: "Chief Technological Officer"
         },
         {
             name: "Linda Hunkins",
-            icon: "icofont-businesswoman",
+            image: require("../../assets/img/linda-scaled.jpg"),
             designation: "Marketing Director"
         }
     ]
