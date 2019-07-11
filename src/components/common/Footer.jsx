@@ -19,14 +19,6 @@ class Footer extends Component {
                                         </a>
                                     </h4>
                                     <p>{this.props.siteDescription}</p>
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href={this.props.btnLink}
-                                        className="btn btn-primary"
-                                    >
-                                        {this.props.btnText}
-                                    </a>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6" style={{paddingLeft: '4rem'}}>

@@ -37,17 +37,6 @@ class Showcase extends Component {
                                                 rel="noopener noreferrer"
                                                 href={
                                                     this.props
-                                                        .showcaseBtnOneLink
-                                                }
-                                                className="btn btn-primary"
-                                            >
-                                                {this.props.showcaseBtnOneText}
-                                            </a>
-                                            <a
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                href={
-                                                    this.props
                                                         .showcaseBtnTwoLink
                                                 }
                                                 className="btn btn-secondary"
